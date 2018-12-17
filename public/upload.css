@@ -1,0 +1,186 @@
+#menuLeft{
+	float: left;
+}
+#menuRight{
+	float: right;
+}
+#tabLeft{
+	float: left;
+}
+#tabRight{
+	float: right;
+}
+#menu{
+	background-color: #0e5673  ;
+	color: white;
+	overflow: hidden;
+	padding-right: 80px;
+	padding-left: 40px;
+}
+#tab{
+	border-style: solid;
+	overflow: hidden;
+	padding-right: 80px;
+	padding-left: 40px;
+}
+.inline{
+	display: inline;
+}
+#logo{
+	font-size: 20px;
+}
+#signUpBtn{
+	background-color: purple;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+.menuVoice{
+	display: inline;
+	margin-left: 20px;
+}
+
+#selected{
+	border-bottom-style: solid;
+	border-bottom-color: blue;
+	padding: 10px;
+}
+
+#imgi{
+	float: left;
+	padding: 40px;
+}
+
+#page{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	text-align: left;
+	overflow: hidden;
+}
+#text{
+	text-align: left;
+	font-size: 40px;
+}
+body{
+	font-family: Roboto;
+}
+
+.button {
+  background-color: #e9ebf2;
+  border: none;
+  color: #0e5673 ;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  width: 200px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8f91bf;
+  color: #e9e9e9;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+input[type="file"] {
+    display: none;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#bdf2ed;}
+
+.delete {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: white;
+  color: red;
+  border: 2px solid red; 
+}
+
+.delete:hover {
+  background-color: red;
+  color: white;
+}
+ #logo{ 
+	 box-shadow: 
+		 
+		 -10px 10px 0 0 #9C5DAE,
+		 10px 10px 0 0 #9C5DAE,
+		 0px 20px 0 0 #9C5DAE,
+		 -10px 30px 0 0 #9C5DAE,
+		 0px 40px 0 0 #9C5DAE,
+		 10px 40px 0 0 #9C5DAE,
+		 20px 30px 0 0 #9C5DAE;
+
+	 background: #9C5DAE;
+	 width: 10px;
+	 height: 10px;
+	 overflow: hidden;
+	 position: absolute;
+	 left: 3em;
+	 top: 14px;
+
+ }
+#footer{
+	 position:absolute;
+	 right: 0;
+	 bottom: 0;
+	 color: #BAB8AF;
+ }
+ 
+ #error{
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+	height: 60px;
+	width: 300px;
+	padding: 10px 20px;
+	border: solid;
+	border-color: red;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	text-align: center;
+	display: none;
+ }
+ 
+ a{
+        color: black;
+        text-decoration: none;
+ }
